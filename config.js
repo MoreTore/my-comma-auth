@@ -36,9 +36,9 @@ export const APPLE_OAUTH_PARAMS = {
 };
 export const APPLE_REDIRECT_LINK = APPLE_AUTH_ENDPOINT + '?' + qs.stringify(APPLE_OAUTH_PARAMS);
 
-export const GITHUB_CLIENT_ID = 'Ov23liP7Y8jCaNhQxsjc';
+export const GITHUB_CLIENT_ID = 'Ov23liy0AI1YCd15pypf';
 export const GITHUB_AUTH_ENDPOINT = 'https://github.com/login/oauth/authorize';
-export const GITHUB_REDIRECT_URI = 'https://connect-api.duckdns.org/v2/auth/h/redirect/'
+export const GITHUB_REDIRECT_URI = 'https://api.springerelectronics.com/v2/auth/h/redirect/'
 
 const GITHUB_OAUTH_PARAMS = {
   client_id: GITHUB_CLIENT_ID,
