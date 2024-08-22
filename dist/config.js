@@ -47,9 +47,9 @@ var APPLE_OAUTH_PARAMS = exports.APPLE_OAUTH_PARAMS = {
 };
 var APPLE_REDIRECT_LINK = exports.APPLE_REDIRECT_LINK = APPLE_AUTH_ENDPOINT + '?' + _querystringify2.default.stringify(APPLE_OAUTH_PARAMS);
 
-var GITHUB_CLIENT_ID = exports.GITHUB_CLIENT_ID = 'Ov23liP7Y8jCaNhQxsjc';
+var GITHUB_CLIENT_ID = exports.GITHUB_CLIENT_ID = 'Ov23liy0AI1YCd15pypf';
 var GITHUB_AUTH_ENDPOINT = exports.GITHUB_AUTH_ENDPOINT = 'https://github.com/login/oauth/authorize';
-var GITHUB_REDIRECT_URI = exports.GITHUB_REDIRECT_URI = 'https://connect-api.duckdns.org/v2/auth/h/redirect/';
+var GITHUB_REDIRECT_URI = exports.GITHUB_REDIRECT_URI = 'https://api.springerelectronics.com/v2/auth/h/redirect/';
 var GITHUB_OAUTH_PARAMS = {
   client_id: GITHUB_CLIENT_ID,
   redirect_uri: GITHUB_REDIRECT_URI,
